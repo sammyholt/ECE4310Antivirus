@@ -2,6 +2,13 @@
 
 Runnable .jar file is included called AVScanner.jar
 
+To run the scanner:
+1. Run the AVScanner.jar file. 
+2. Select a directory to scan (Such as Example)
+3. Choose a definitions.txt file.  This is just a list of SHA-256 hash strings with one string on each line.
+4. Click Scan
+5. To delete viruses, click the delete button.
+
 In the example folder are some sample data files and a sample definitions.txt file.
 
 For this example, I have defined test1.txt as a virus.  The content of test1.txt is "Example text".  test2.txt is not defined as a virus and its content is "Example tex".  I have also defined cpp-logo as a virus.
